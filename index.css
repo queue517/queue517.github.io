@@ -1,0 +1,77 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+       width: 100%;
+    }
+    header {
+        background-color: #98FFC6;
+        padding: 15px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .navbar {
+        float: left;
+        width: 100%;
+        list-style-type: none;
+        padding: 5px;
+        background-color: black;
+    }
+    .navbar li {
+    display: inline-block;
+    }
+    .navbar li a {
+        display: block;
+        color: black;
+        background-color: #505FE8;
+        height: auto;
+        padding: 12px 18px 12px 18px;
+        vertical-align: middle;
+    }
+    section {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    h2 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    li {
+      list-style: none;
+    }
+    p {
+      text-align: justify;
+    }
+    img {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      width: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+    .snuggles img {
+      margin-left: 0px;
+      margin-bottom: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 50%;
+
+    }
+    .snuggles li {
+      display: inline-block;
+    }
