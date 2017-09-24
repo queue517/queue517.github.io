@@ -39,12 +39,14 @@ there are definitely some properties you should add!*/
         vertical-align: middle;
     }
     section {
+        background-color: white;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 25px;
         width: 100%;
         display: inline-block;
         float: left;
+        padding-bottom: 50px;
     }
     h2 {
         padding-top: 25px;
@@ -65,13 +67,23 @@ there are definitely some properties you should add!*/
       margin-right: auto
     }
     .snuggles img {
-      margin-left: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin-bottom: 15px;
       display: inline-block;
       vertical-align: middle;
-      width: 50%;
+      width: 400px;
 
     }
     .snuggles li {
       display: inline-block;
+      text-align: center;
+    }
+    footer {
+        background-color: #98FFC6;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        font-size: 12px;
+        text-align: right;
+        width: 100%;
     }
